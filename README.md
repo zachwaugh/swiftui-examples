@@ -4,11 +4,13 @@ A collection of small SwiftUI bits and pieces I've figured out as I've learned a
 
 ## Demos
 
+Open and run the `SwiftUI Examples.xcodeproj` and run the target for each platform to see the demos.
+
 ### macOS
 
 #### Blurred window background
 
-- How to show use 
+- Adding blurred background for your macOS window. See [Source/BlurredWindowContentView.swift](Source/BlurredWindowContentView.swift)
 
 
 ## License
