@@ -18,11 +18,15 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         }
     }
 
+    /// Show a window controller demonstrating the blurred window effect in a SwiftUI view
     private func showBlurredWindow() {
-        let window = NSWindow(contentViewController: NSHostingController(rootView: BlurredWindowView()))
-        window.styleMask.insert(.fullSizeContentView)
+        let window = NSWindow(contentViewController: NSHostingController(rootView: BlurredWindowContentView()))
         window.title = "Blurred Window Demo"
+
+        // The styleMask and transparent titlebar aren't required, but look better to me
+        window.styleMask.insert(.fullSizeContentView)
         window.titlebarAppearsTransparent = true
+
         let windowController = NSWindowController(window: window)
         windowController.showWindow(self)
         windowControllers.append(windowController)
