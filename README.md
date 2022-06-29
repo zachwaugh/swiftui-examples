@@ -12,6 +12,8 @@ Open and run the `SwiftUI Examples.xcodeproj` and run the target for each platfo
 
 - Adding blurred background for your macOS window. See [Source/BlurredWindowContentView.swift](Source/BlurredWindowContentView.swift)
 
+![Blurred window background screenshot](Docs/blurred-window-background.png)
+
 
 ## License
 
