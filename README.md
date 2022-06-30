@@ -22,5 +22,5 @@ All code is available under the MIT license.
 
 ## Author 
 - Zach Waugh
-- (https://zachwaugh.com)[https://zachwaugh.com]
-- (@zachwaugh)[https://twitter.com/zachwaugh]
+- [https://zachwaugh.com](https://zachwaugh.com)
+- [@zachwaugh](https://twitter.com/zachwaugh)
